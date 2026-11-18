@@ -1,0 +1,4 @@
+# звуки из snd_src/ (tools/audio/import_sfx.py) — make_audio.py их не перезаписывает
+door_wood
+door_wood_close
+door_wood_slow

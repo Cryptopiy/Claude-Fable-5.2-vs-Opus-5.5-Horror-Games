@@ -1,0 +1,54 @@
+# имя|секунды ожидания|аргументы игры (после --). Порывы выключены, где не сказано иное, чтобы кадры сравнивались.
+o01_hub_lamp|4|--place=hub --lamp=1 --nogust
+o02_hub_dark|4|--place=hub --nogust
+o03_hub_gust|5|--place=hub --lamp=1 --gust=0.9
+o04_rope_a_lamp|4|--place=rope_a --lamp=1 --nogust
+o05_rope_a_gust|5|--place=rope_a --lamp=1 --gust=0.9
+o06_house_far|4|--place=house_out --nogust
+o07_house_far_lamp|4|--place=house_out --lamp=1 --nogust
+o08_porch|4|--place=door_out --nogust --lamp=1
+o09_meteo|4|--place=meteo --lamp=1 --nogust
+o10_booth|4|--place=booth --lamp=1 --nogust
+o11_shed|4|--place=shed --lamp=1 --nogust
+o12_shed_in|4|--place=shed_in --nogust
+o13_depot|4|--place=depot --lamp=1 --nogust
+o14_mast|4|--place=mast --lamp=1 --nogust
+o15_hut_in|4|--place=hut_in --lamp=1 --nogust
+o16_pad|4|--place=pad --lamp=1 --nogust
+o17_balok|4|--place=balok --lamp=1 --nogust
+o18_balok_in|4|--place=balok_in --lamp=1 --nogust
+o19_cellar|4|--place=cellar --lamp=1 --nogust
+o20_clear_overview|4|--place=house_out --clear=1 --bright=0.5 --nogust
+i01_main|4|--place=main --nogust
+i02_main_dark|4|--place=main --nogust --nopower --lamp=1
+i03_radio|4|--place=radio --nogust
+i04_bunk|4|--place=bed --nogust
+i05_store|4|--place=store --nogust
+i06_vest|4|--place=vest --nogust
+i07_main_window|4|--pos=0,0.03,-1.6 --yaw=0 --pitch=5 --nogust
+e01_ent3|4|--place=rope_a --lamp=1 --nogust --ent=3,1
+e02_ent5_w02|4|--place=rope_a --lamp=1 --nogust --ent=5,0.2
+e03_ent7|4|--place=rope_a --lamp=1 --nogust --ent=7,1
+e04_ent10|4|--place=rope_a --lamp=1 --nogust --ent=10,1
+e05_ent15|4|--place=rope_a --lamp=1 --nogust --ent=15,1
+e06_ent7_dark_w06|4|--place=rope_a --nogust --ent=7,0.6
+e07_ent5_gust|5|--place=rope_a --lamp=1 --gust=0.9 --ent=5,1
+e08_hideview|4|--hideview --place=bed --nogust
+u01_notebook|4|--place=main --nogust --notebook=0
+u02_radio|4|--place=radio --nogust --radio
+u03_menu|4|--menu=main
+u04_note|4|--place=main --nogust --note=gr1
+u05_cold|5|--place=hub --lamp=1 --nogust --cold=8
+f01_ent3_open|4|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=3,1
+f02_ent5_open|4|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=5,1
+f03_ent7_open|4|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=7,1
+f04_ent10_open|4|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=10,1
+f05_ent15_open|4|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=15,1
+f06_ent7_dark|4|--pos=13,0,-18 --yaw=-70 --nogust --ent=7,1
+f07_ent5_w02_open|4|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=5,0.2
+f08_ent7_gust|5|--pos=13,0,-18 --yaw=-70 --lamp=1 --gust=0.9 --ent=7,1
+f09_house_corridor|4|--pos=1.55,0.03,-2.6 --yaw=180 --nogust --nopower --lamp=1 --entat=1.55,0.03,0.4,0,1
+f10_window_face|4|--pos=0,0.03,-1.2 --yaw=0 --pitch=8 --nogust --nopower --entat=0,-0.42,-3.62,180,0.25 --eyes=1
+g01_ground_lamp|4|--pos=16,0,-26 --yaw=-75 --pitch=-18 --lamp=1 --nogust
+g02_ground_clear|4|--pos=16,0,-26 --yaw=-75 --pitch=-8 --clear=1 --bright=0.5 --nogust
+f11_window_face_lamp|4|--pos=0,0.03,-1.4 --yaw=0 --pitch=6 --nogust --nopower --lamp=1 --entat=0,-0.42,-3.62,180,0.25

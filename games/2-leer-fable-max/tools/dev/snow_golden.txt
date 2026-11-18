@@ -1,0 +1,7 @@
+# Кадры для сравнения метели (LIST=tools/dev/snow_golden.txt EXTRA=--snow=N tools/dev/shots.sh <папка>)
+s1_beam|5|--place=rope_a --lamp=1 --nogust
+s2_gust|6|--place=rope_a --lamp=1 --gust=0.9
+s3_hub|5|--place=hub --lamp=1 --nogust
+s4_creature|5|--pos=13,0,-18 --yaw=-70 --lamp=1 --nogust --ent=7,1
+s5_drift|5|--pos=16,0,-26 --yaw=-75 --pitch=-18 --lamp=1 --nogust
+s6_dark|5|--place=house_out --nogust
